@@ -1,6 +1,6 @@
 html body {
 	font-family: 'Helvetica', Arial, sans-serif;
-	color: #111
+	color: #111;
 	background: #E7E7E7;
 }
 
@@ -9,7 +9,7 @@ a {
 }
 
 .content {
-	text-align: center
+	text-align: center;
 	padding: 0 15% 20px;
 }
 
@@ -18,8 +18,8 @@ a {
 	font-weight: bold;
 	margin: 20px 0;
 
-
-content form {
+}
+.content form {
 	padding: 10px;
 	width: 300px;
 	margin: 0 auto;
@@ -27,10 +27,10 @@ content form {
 
 .content form input {
 	width: 100%;
-	// border: 2px solid #107394;
+	border: 2px solid #107394;
 	color: #107394;
 	background: transparent;
-	magrin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 .content div {
@@ -48,9 +48,35 @@ content form {
 }
 
 .submit {
-	background: #43AC6A;
+	background: #43AC6A !important;
 }
 
 .timeout {
 	background: #CCCCCC;
+}
+.part-2-button{
+	width: 20%;
+	border: 2px solid #940b03;
+	border-radius:10px;
+	color: #940b03;
+	background: transparent;
+	margin:auto;
+	margin-bottom: 15px;
+	transition: background .3s ease-in-out;
+	transition: color .1s ease-in-out;
+	-webkit-transition: background .3s ease-in-out;
+	-webkit-transition: color .1s ease-in-out;
+}
+.part-2-button:active{
+	color: white;
+	background: #940b03;
+}
+#apiData{
+	font-weight:lighter;
+	-webkit-transition: -webkit-transform .8s ease-in-out;
+  	transition: transform .8s ease-in-out;
+}
+#apiData:hover{
+	-webkit-transform: rotate(360deg);
+	  transform: rotate(360deg);
 }
